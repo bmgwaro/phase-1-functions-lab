@@ -6,8 +6,8 @@ function distanceFromHqInBlocks(location) {
   return Math.abs(location - hq);
 }
 
-function distanceFromHqinFeet(location) {
-  const noOfBlocks=distanceFromHqInBlocks(location);
+function distanceFromHqInFeet(location) {
+  const noOfBlocks=distanceFromHqInBlocks(location)
   return noOfBlocks*block;
 }
 
